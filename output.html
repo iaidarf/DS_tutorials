@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(1393)https://mindmup-export.s3.us-east-1.amazonaws.com/outline.html/out/86451fa03be511ed8a45455bcef4b49c.outline.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIASNCK5ADRQDUN3DES%2F20220924%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220924T084730Z&X-Amz-Expires=93600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLWVhc3QtMSJHMEUCIDkRdrDbznHM8HjwwDa1jm%2F4hVHkl2G6PPxKHHz%2FowfTAiEAiHlilcptK%2BIgAqNmK3WdmH5wXy9Ge4SxcPeQtPMZu6Uq%2FQIIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxNjU1MTMzMzA5MTUiDLbWdsfBTEnvoHr7WCrRAlt9xKhyU4dBRw26wA56%2BAr%2BP49umUqvZUYj2BqylxXnVR4s06TpDjmfjwhYXVuO7pExhoBy%2Bld%2BbHzmVd0UuwDmBjj%2Bg71DYho9FQBGAo6jS7CcAX29son8pnUqAD6oO9YrVC5ubSTF1W07lKyVLdYE0WqRiRJGE%2F6ezT7NtRrHaG9EkEOh9y6P0Y5BqUiU2%2BHEjKtPZI3KHbCC9x6zzSpUL%2Ff%2BeqJuWO4P52y%2BKvG2RAvMPiyjj4XMnm9K7xRiZ5FanwOcyIZSccxT4Lle33fSx%2FUn%2FEhZrFHJMjcjfke25vkcKiylEvYwcS27f8s4M2anKQCv51n73p4l1HOc%2BcY94iKSKhYk40pAJsIHRQpZrWT43xYOyWRIrxNgkYbdnfWnh37wkFumOgktxsYRpjKPy47oR4E2OEZUqVphFt%2BKKnAF7ODYIIJp5miuOydm4qIwk%2Fy6mQY6ngEUqabsUznUTkl2X9WoLwmAcxVNBPrXwuWBIRWpEXYJCNbwFML9YLQL29GxDeIPWtFeuIGLLtSr6IXRxEci%2BnPqp3LdoJ0oXqFQx9t5s%2BCBSJf73nSVIEPKakpdQrdUnAJh%2FFpCCE0ZncyGJJcGDL8d2EUH5U9swqeBZ5xpJiHI3RfopQqEA50b9cS%2BDKXNTZ7JYYKheY1bH6egZrbzlw%3D%3D&X-Amz-Signature=37cd5178158d8be505f9a66334772ef3792cecc374a20c5ec26d979bf5b1307b&X-Amz-SignedHeaders=host&x-id=GetObject -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>output</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<ul>
+<li>PYTHON
+<ul>
+<li>Арифметические операции
+<ul>
+<li>• сложение (+) • вычитание (-) • умножение (*) • деление (/) • целочисленное деление (//) • возведение в степень (**) • взятие остатка от деления (%)</li>
+</ul></li>
+<li>Операторы сравнения
+<ul>
+<li>• &gt; • = • &lt;= • !=</li>
+</ul></li>
+<li>Логические операторы
+<ul>
+<li>AND OR NOT</li>
+</ul></li>
+<li>Операторы проверки вхождения
+<ul>
+<li>IN NOT IN</li>
+</ul></li>
+<li>Индексация и срезы
+<ul>
+<li>Левая граница - включена, правая - не включена</li>
+</ul></li>
+<li>Синтактический сахар
+<ul>
+<li>List comprehension
+<ul>
+<li>Создать список, элементами которого являются квадраты целых чисел. Классический способ: squares = [] for x in range(10): squares.append(x**2)
+<ul>
+<li>squares = [x**2 for x in range(10)]</li>
+</ul></li>
+<li>для циклов: for i in range(x+1): <em>for j in range(y+1): <strong>for k in range(z+1): </strong></em> lst.append([i,j,k])
+<ul>
+<li>lst = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1)]</li>
+</ul></li>
+<li>Распаковываем элементы из списка Если вам нужно вытащить из последовательности определенные значения, можно присвоить переменную каждому элементу в этой последовательности: x, y = (15, 5)</li>
+<li>с условием if: for i in lst: _if sum(i) !=3: __answer.append(i)
+<ul>
+<li>answer = [i for i in lst if sum(i) !=3]</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Библиотеки для DS
+<ul>
+<li>pandas
+<ul>
+<li><a href="https://drive.google.com/file/d/1smFepT748IxG-dK2BfS-oue3wOkIWwyq/view?usp=sharing">ссылка</a></li>
+</ul></li>
+<li>numpy
+<ul>
+<li><a href="https://drive.google.com/file/d/13DobNcfa6uXWG6KiN52adYdlStgyzelU/view?usp=sharing">ссылка</a></li>
+</ul></li>
+<li>sklearn</li>
+<li>matplotlib</li>
+<li>seaborn</li>
+<li>statsmodels</li>
+</ul></li>
+<li>Переменная – это объект, которому дано имя.
+<ul>
+<li>Области видимости
+<ul>
+<li>Глобальная область видимости Глобальный контекстподразумевает, что переменная является глобальной, она определена вне любой из функций и доступна любой функци</li>
+<li>Локальная область видимости В отличие от глобальных переменных локальная переменнаяопределяется внутри функции и доступна только из этой функции, то есть им</li>
+</ul></li>
+</ul></li>
+<li>Условные конструкции
+<ul>
+<li>if elif else</li>
+</ul></li>
+<li>Типы данных
+<ul>
+<li>Простые
+<ul>
+<li>integer целые числа</li>
+<li>float числа с плавающей точкой</li>
+<li>string строка/текст
+<ul>
+<li>Операции со строками
+<ul>
+<li>1.конкатенация (объединение) строк возможна при помощи + ; 2.умножение строки на число&nbsp;позволит повторить ее нужное&nbsp;количество раз; 3. .upper() приводит строку к&nbsp;верхнему регистру; 4. .lower() приводит строку к&nbsp;нижнему регистру; 5. .capitalize() приводит первую букву к верхнему регистру; 6. .replace(‘что заменить’, ‘на что заменить’) заменяет элемент в строке на указанный; 7. len(my_string) позволяет определить длину строки (количество символов в ней);</li>
+<li><h1 id="преобразование-строки-в-список-например-из-csv-файла-queries_list-queries_string.split">преобразование строки в список (например, из CSV-файла) queries_list = queries_string.split(‘,’)</h1></li>
+</ul></li>
+</ul></li>
+<li>boolean булевый/логический тип</li>
+</ul></li>
+<li>Тип объекта можно узнать при помощи функции type().</li>
+<li>Тип данных можно принудительно изменить функциями int(), float(), bool(), str()</li>
+<li>Сложные
+<ul>
+<li>Списки (list) […]
+<ul>
+<li>это структура данных для упорядоченного хранения объектов различных типов. Является изменяемым типом данных.</li>
+<li>Операции со списками
+<ul>
+<li>● списки можно складывать; ● del(list[index]) удаляет&nbsp;элемент из списка по индексу; ● .remove(el) удаляет указанный&nbsp;элемент из списка; ● .append(el) позволяет&nbsp;добавить элемент в список; ● .count(el) считает количество&nbsp;вхождений элемента в список; ● .index(el) позволяет узнать&nbsp;индекс элемента в списке; ● .reverse() разворачивает&nbsp;список; ● sorted(list) сортирует список;</li>
+<li><h1 id="преобразование-списка-в-строку-print.joinстолбец-1-столбец-2-столбец-3">Преобразование списка в строку print(‘,’.join([‘Столбец 1’, ‘Столбец 2’, ‘Столбец 3’]))</h1></li>
+</ul></li>
+</ul></li>
+<li>Кортежи (tuples) (…)
+<ul>
+<li>неизменяемые списки (нельзя добавлять или удалять элементы из уже созданного кортежа).</li>
+<li>Занимает меньше памяти при работе с ними по сравнению со списками</li>
+<li><h1 id="кортеж-из-одного-элемента-задается-так-t-one">кортеж из одного элемента задается так: t = (‘one’, )</h1></li>
+</ul></li>
+<li>Множества (sets)
+<ul>
+<li>“контейнер”, содержащий не повторяющиеся элементы в случайном порядке</li>
+<li>Операции над множествами
+<ul>
+<li>● .add(el) добавляет элемент в&nbsp;множество; ● .update(set) соединяет&nbsp;множество с другим&nbsp;множеством/списком; ● .discard(el) удаляет элемент из&nbsp;множества по его значению; ● .union(set) объединяет&nbsp;множества (логическое “ИЛИ”); ● .intersection(set) –&nbsp;пересечение множеств (логическое “И”); ● .difference(set) – возвращает&nbsp;элементы одного множества, которые не принадлежат другому множеству (разность множеств); ● .symmetric_difference(set) –&nbsp;возвращает элементы,&nbsp;которые встречаются в одном множестве, но не встречаются в обоих</li>
+</ul></li>
+</ul></li>
+<li>Словари (dictionaries)
+<ul>
+<li>неупорядоченные коллекции произвольных объектов с доступом по ключу</li>
+<li>Словарь инициализируется при помощи { }, элементы них хранятся в формате key:value. Ключами могут быть strings, booleans, integers и floats. Любое значение из словаря можно получить следующим образом: my_dict[key]. Все ключи в словаре должны быть уникальными.</li>
+<li>Операции со словарями
+<ul>
+<li>● del(dict[key]) удаляет элемент из списка по ключу; ● .keys() позволяет получить все ключи словаря; ● .values() позволяет получить все значения словаря; ● .items() позволяет получить ключи и значения словаря; ● .get(key) “безопасно” возвращает значение по ключу (при отсутствии ключа ошибка не возникает)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>None
+<ul>
+<li>специальный тип данных, который означает отсутствие значения.</li>
+</ul></li>
+</ul></li>
+<li>Циклы
+<ul>
+<li>while
+<ul>
+<li>Позволяет выполнить одну и ту же последовательность действий, пока проверяемое условие истинно. Как правило, цикл while используется, когда невозможно заранее определить точное значение количества проходов исполнения цикла</li>
+</ul></li>
+<li>for
+<ul>
+<li>Цикл for проходится по элементам любого итерируемого объекта (строки, списка и т.д.) и во время каждого прохода выполняет заданную последовательность действий.</li>
+</ul></li>
+<li>break, continue и pass
+<ul>
+<li>break прерывает исполнение цикла</li>
+<li>continue завершает исполнение текущей итерации цикла и переходит к следующей итерации</li>
+<li>pass игнорирует условие и продолжает исполнение цикла</li>
+</ul></li>
+</ul></li>
+<li>Функции
+<ul>
+<li>Анонимные функции. Анонимные функции создаются при помощи инструкции lambda и используются для более краткой записи функций с одним выражением. Выполняются быстрее обычных и не требуют инструкции return:lambda x, pow: x**pow</li>
+<li>Методы. Это функции, которые “принадлежат” к определенному объекту.</li>
+</ul></li>
+</ul></li>
+</ul>
+
+
+</body></html>
